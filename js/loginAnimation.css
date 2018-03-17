@@ -1,0 +1,8 @@
+<style>
+	.login #form {
+		position: absolute;
+		margin-top: -250px;
+		opacity: 0.2;
+		-webkit-transition:0.5s;
+	}
+</style>

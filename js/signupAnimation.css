@@ -1,0 +1,22 @@
+<style>
+	.login .signup {
+		position: absolute;
+		margin-top: 43%;
+		opacity: 1;
+		-webkit-transition:0.5s;
+		-webkit-transform:scale(1,1);
+	-o-transform:scale(1,1);
+	-moz-transform:scale(1,1);
+	-ms-transform:scale(1,1);
+
+	-webkit-transition:-webkit-transform 0.3s;
+	-o-transition:-o-transform 0.3s;
+	-ms-transition:-ms-transform 0.3s;
+	-moz-transition:-moz-transform 0.3s;
+	}
+	/*.login{
+		position: absolute;
+		left:0;
+		-webkit-transition:left 0.5s;
+	}*/
+</style>

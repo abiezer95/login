@@ -1,0 +1,128 @@
+*{padding:0;margin: 0}
+
+body{
+	/*backgrou6nd: #424242*/
+	background: url(../images/1.jpg) no-repeat fixed center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.login{
+	position:absolute;
+	right:0;
+	width:40%;
+	height:100%;
+	background: #fff;
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+}
+
+.login #form{
+	position: absolute;
+	left:0;right:0;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:43%;
+	-webkit-transform:scale(0.2,0.2);
+	-o-transform:scale(0.2,0.2);
+	-moz-transform:scale(0.2,0.2);
+	-ms-transform:scale(0.2,0.2);
+}
+.login .signup{
+	position: absolute;
+	left:0;right:0;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:43%;
+	-webkit-transform:scale(0.2,0.2);
+	-o-transform:scale(0.2,0.2);
+	-moz-transform:scale(0.2,0.2);
+	-ms-transform:scale(0.2,0.2);
+}
+.login form input{
+	position: relative;
+	width:300px;
+	height:35px;
+	border:0;border-bottom:groove 1px;
+	/*box-shadow:0px 0px 20px rgba(0,0,0,0.2);*/
+	outline:none;
+	text-indent: 5px
+}
+.login form #submit{
+	background:#FE2E2E;
+	color:#fff;
+	border:0;
+	width:260px;
+}
+
+.login form label{
+	color:#0174DF;
+}
+.login form a{
+	color:#0101DF;
+	opacity:0.8
+}
+.login form h2{
+	position: absolute;
+	left:25%;top:-50px;
+	font-weight: lighter;
+	opacity: 0.8;
+
+}.login form h4{
+	position: absolute;
+	left:25%;top:-20px;
+	font-weight: lighter;
+	opacity: 0.8;
+}
+.login form #logo{
+	position: absolute;
+	left:20%;
+	top:-140px;
+	width:125px;
+
+}
+.showMore{
+	position: absolute;
+	right:40px;
+	top:20px;
+}
+.showMore input{
+	width:150px;
+	height:25px;
+	font-size:14px;
+	border:0;
+	color:#FE2E2E;
+	background: #f2f2f2;
+	opacity:0.7
+}
+.showMore input:hover{
+	opacity: 1
+}
+/* get apps */
+
+.getApp{
+	position:absolute;
+	left:0;right:0;
+	margin-left: auto;margin-right: auto;
+	bottom:10px;cursor: pointer;
+}
+.getApp tt{
+	opacity:0.6
+}
+.getApp img{
+	width:50px;
+}
+
+footer{
+	position:absolute;
+	left:19%;
+	top:10px;
+	color:#fff;
+	opacity:0.8;
+	font-size:12px;
+	cursor: pointer;
+}
+footer a{
+	color:#fff;
+}
