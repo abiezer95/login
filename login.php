@@ -19,16 +19,16 @@
 				<br><br>
 			<input type="submit" value="Siguiente" id='submit'>
 		</form>
+		<form class="signup">
+			<!-- registrar -->
+		</form>
 		<div class="showMore">
-			<input type="submit" value="Crear Cuenta" id='more' onclick="sign_Up()">
+			<input type="submit" value="Crear Cuenta" id='more' onclick="signUp()">
 		</div>
 		<div class="getApp">
 			<tt>Descargar Nuestra App</tt><br>
 			<img src="images/googleplay.png">
 		</div>
-		<form class="signup">
-			<!-- registrar -->
-		</form>
 		</center>
 	</div>
 
